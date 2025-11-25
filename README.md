@@ -58,7 +58,7 @@ export type Message = {
 pnpm install
 ```
 
-- 在 `apps/api` 配置 `.env`：
+- 在 `apps/api` 配置 `.env`(这一步可以省略,我配置了api key,如果使用其他模型提供者,需要配置对应的环境变量)：
 
 ```
 MODEL_PROVIDER=dashscope
