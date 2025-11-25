@@ -1,0 +1,10 @@
+.row { width: 100%; display: flex; }
+.rowAI { justify-content: flex-start; }
+.rowUser { justify-content: flex-end; }
+.inner { display: flex; gap: 12px; align-items: flex-start; }
+.innerAI { flex-direction: row; }
+.innerUser { flex-direction: row-reverse; }
+.bubble { max-width: 720px; border-radius: 16px; padding: 12px; }
+.bubbleAI { background: #fff; color: #333; border: 1px solid #f0f0f0; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.bubbleUser { background: linear-gradient(180deg,#4f46e5,#6366f1); color: #fff; }
+.content { max-height: 240px; overflow: auto; }

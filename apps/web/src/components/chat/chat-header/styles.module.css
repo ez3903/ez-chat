@@ -1,0 +1,5 @@
+.header { padding: 16px 24px; background: linear-gradient(90deg,#f5f3ff,#eaf2ff); border-bottom: 1px solid #f0f0f0; position: relative; z-index: 11; }
+.headerInner { max-width: 960px; margin: 0 auto; }
+.title { font-weight: 600; }
+.status { display: flex; align-items: center; gap: 6px; }
+.more { font-size: 20px; color: #8c8c8c; cursor: pointer; }

@@ -1,0 +1,13 @@
+{
+  "name": "ez-chat",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api start:dev",
+    "dev": "concurrently -k \"pnpm --filter api start:dev\" \"pnpm --filter web dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

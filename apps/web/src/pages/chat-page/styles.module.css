@@ -1,0 +1,5 @@
+.pageLayout { min-height: 100vh; background: linear-gradient(180deg,#eef2ff 0%,#ffffff 40%); }
+.pageHeader { background: transparent; padding: 0; position: sticky; top: 0; z-index: 10; }
+.pageContent { padding: 24px; }
+.pageContainer { max-width: 960px; margin: 0 auto; margin-top: 12px; }
+/* .pageFooterNote { color: #8c8c8c; margin-top: 8px; } */
